@@ -17,32 +17,32 @@
 // String name = new String("Aman"); int[] marks = new int[3]; marks[0] = 97; marks[1] = 98; marks[2] = 95; 3. Constants A constant is a variable in Java which has a ﬁxed value i.e. it cannot be assigned a different value once assigned. 
 // package com.company;
 // import java.io.*;
-class GFG{
-    //Instance VAriable
-public String geek;
-public GFG(){
-    //Default conmstructor 
-    this.geek="Faizan";//Instance Variable 
-}
+// class GFG{
+//     //Instance VAriable
+// public String geek;
+// public GFG(){
+//     //Default conmstructor 
+//     this.geek="Faizan";//Instance Variable 
+// }
 
-public static void main(String[] args) {
-//Object Creation 
-GFG name =new GFG();
-System.out.println("Geek name is "+name.geek); 
+// public static void main(String[] args) {
+// //Object Creation 
+// GFG name =new GFG();
+// System.out.println("Geek name is "+name.geek); 
     
-}}
+// }}
 /*package whatever //do not write package name here */
 // Contributed by Shubham Jain
 // import java.io.*;
 
-// class GFG {
-// 	public static void main(String[] args)
-// 	{
-// 		int var = 10; // Declared a Local Variable
-// 		// This variable is local to this main method only
-// 		System.out.println("Local Variable: " + var);
-// 	}
-// }
+class GFG {
+	public static void main(String[] args)
+	{
+		int var = 10; // Declared a Local Variable
+		// This variable is local to this main method only
+		System.out.println("Local Variable: " + var);
+	}
+}
 // /*package whatever //do not write package name here */
 
 // import java.io.*;
